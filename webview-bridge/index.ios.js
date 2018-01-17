@@ -17,7 +17,7 @@
 // HACKFIX: https://github.com/facebook/metro-bundler/issues/74 - error: bundling failed: UnableToResolveError: Unable to resolve module `react` from `/Users/garyfung/Dropbox/Code/react-native-webview-bridge-RN0.40/webview-bridge/index.ios.js`: Module does not exist in the module map
 // do same in node_modules/create-react-class/index.js on npm/yarn upgrade
 // NOTE: metro bundler can't find react because node_modules symlink to this local package on ~/Dropbox?
-var React = require('/Users/garyfung/Documents/code/WonderSwipe/node_modules/react');
+var React = require('react');
 var ReactNative = require('react-native');
 var createReactClass = require('create-react-class');
 var invariant = require('invariant');
